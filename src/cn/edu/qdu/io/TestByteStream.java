@@ -7,7 +7,7 @@ public class TestByteStream {
 		FileInputStream in = null;
 		FileOutputStream out = null;
 		try {
-			in = new FileInputStream("C:\\Users\\NIIT\\Documents\\hello.txt");
+			in = new FileInputStream(args[0]);
 			out = new FileOutputStream("C:\\Users\\NIIT\\Documents\\≤‚ ‘.txt",true);
 			int c;
 			while ((c = in.read()) != -1) {
